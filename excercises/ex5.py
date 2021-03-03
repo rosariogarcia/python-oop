@@ -8,7 +8,6 @@ count = 0
 for option in options:
     if option==20 and count<1:
         index_option = options.index(option)
-        del options[index_option]
-        options.insert(index_option,2000)
+        options[index_option]=2000
         count+=1
 print(options)
