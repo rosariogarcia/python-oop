@@ -10,5 +10,5 @@ for option in options:
         index_option = options.index(option)
         del options[index_option]
         options.insert(index_option,2000)
-        count=count+1
+        count+=1
 print(options)
